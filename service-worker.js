@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pomeraniamed/precache-manifest.fe204d24801f42dbc59695862a52ba2e.js"
+  "precache-manifest.5190fd9a14396399056fdab77873294a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "medpomerania"});
