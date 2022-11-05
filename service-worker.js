@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ThesisDefenceFront/precache-manifest.91d6b0db4718135efe5b4296f4087419.js"
+  "/pomeraniamed/precache-manifest.fe204d24801f42dbc59695862a52ba2e.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "thesis-defence"});
+workbox.core.setCacheNameDetails({prefix: "medpomerania"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
